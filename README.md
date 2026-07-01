@@ -3,6 +3,7 @@
 This is a simple Arduino project that demonstrates how to blink an LED using a digital output pin. It is often used as a first step to learn basic microcontroller programming.
 
 ⚙️ Components Used
+
 -Arduino Uno (or compatible board)
 
 -LED
@@ -14,6 +15,7 @@ This is a simple Arduino project that demonstrates how to blink an LED using a d
 -2 Jumper wires
 
 🔌 Circuit Setup
+
 LED anode (+) connected to a digital pin (e.g. pin 8)
 LED cathode (-) connected to GND through a 330Ω resistor
 
@@ -21,21 +23,28 @@ LED cathode (-) connected to GND through a 330Ω resistor
 
 
 💻 Code
+
+```cpp
 void setup() {
   pinMode(8, OUTPUT);
 }
 
 void loop() {
   digitalWrite(8, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(8, LOW);
-  delay(1000);
+  delay(500);
 }
+```
 
 🎯 What I Learned
+
 -Digital output control
+
 -Basic Arduino syntax
+
 -Using delay and loop structure
+
 -Circuit assembly on breadboard
 
 
