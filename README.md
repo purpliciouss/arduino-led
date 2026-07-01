@@ -4,9 +4,13 @@ This is a simple Arduino project that demonstrates how to blink an LED using a d
 
 ⚙️ Components Used
 -Arduino Uno (or compatible board)
+
 -LED
+
 -330Ω resistor
+
 -Breadboard
+
 -2 Jumper wires
 
 🔌 Circuit Setup
