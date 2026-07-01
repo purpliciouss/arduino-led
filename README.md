@@ -22,6 +22,8 @@ LED cathode (-) connected to GND through a 330Ω resistor
 <img width="414" height="228" alt="Screenshot 2026-07-01 at 19 37 04" src="https://github.com/user-attachments/assets/1a72ffa7-c40b-4109-b83c-6d91c6f2fcd2" />
 
 
+
+
 💻 Code
 
 ```cpp
